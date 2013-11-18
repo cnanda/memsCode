@@ -1,0 +1,35 @@
+Dependencies for Project 'accelerometer', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f4xx.s)(0x4F85A3C4)(--cpu Cortex-M4.fp -g --apcs=interwork -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F4xx --list "startup_stm32f4xx.lst" --xref -o "startup_stm32f4xx.o" --depend "startup_stm32f4xx.d")
+F (..\STM32F4_CMSIS\src\misc.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4_discovery.c)(0x4EAABCDE)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_adc.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_can.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_crc.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_cryp.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_cryp_aes.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_cryp_des.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_cryp_tdes.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_dac.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_dbgmcu.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_dcmi.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_dma.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_exti.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_flash.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_fsmc.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_gpio.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_hash.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_hash_md5.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_hash_sha1.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_i2c.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_iwdg.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_pwr.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_rcc.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_rng.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_rtc.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_sdio.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_spi.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_syscfg.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_tim.c)(0x4EAABCBA)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_usart.c)(0x4EAABCBC)()
+F (..\STM32F4_CMSIS\src\stm32f4xx_wwdg.c)(0x4EAABCBC)()
+F (..\STM32F4_CMSIS\src\system_stm32f4xx.c)(0x4EAABCC6)()
