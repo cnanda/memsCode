@@ -93,7 +93,9 @@ static void LIS302DL_LowLevel_Init(void)
   GPIO_InitStructure.GPIO_PuPd  = GPIO_PuPd_NOPULL;
   GPIO_Init(LIS302DL_SPI_INT1_GPIO_PORT, &GPIO_InitStructure);
   /* Interrupt configuration*/
- /* Configure Button EXTI line */
+ /* Configure intr1 EXTI line */
+	 SYSCFG_EXTILineConfig(EXTI_PortSourceGPIOE, EXTI_PinSource0);
+	
 	EXTI_InitStructure.EXTI_Line = EXTI1_IRQn; // ext 1 ISR
 	EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;
 	EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Rising;  

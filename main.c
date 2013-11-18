@@ -38,12 +38,15 @@ int main(void )
                                                              = 3/100 = 30ms */
   Delay(30);
   // configure the high intr on each axis
-	ctrl = 0xAA;
+	ctrl = 0x6F;
 	LIS302DL_Write(&ctrl, LIS302DL_FF_WU_CFG1_REG_ADDR, 1);
-	
+	ctrl = 0xFF;
+	LIS302DL_Write(&ctrl, LIS302DL_FF_WU_THS1_REG_ADDR, 1);
 	while(1)
 	{
 		LIS302DL_Read(Buffer, LIS302DL_OUT_X_ADDR, 6);
+		ctrl = 0x00;
+		LIS302DL_Read(&ctrl, LIS302DL_FF_WU_SRC1_REG_ADDR, 1);
 		Delay(30);
 	}
 

@@ -151,6 +151,36 @@ void SysTick_Handler(void)
   {
     TimingDelay_Decrement();
   }
+	//EXTI_ClearITPendingBit(EXTI_Line1);
+}
+/**
+  * @brief  This function handles SysTick Handler.
+  * @param  None
+  * @retval None
+  */
+void EXTI1_IRQHandler(void)
+{
+	uint8_t ctrl;
+	
+	ctrl = LIS302DL_FF_WU_SRC1_REG_ADDR;
+	//LIS302DL_Read(&ctrl, LIS302DL_FF_WU_CFG1_REG_ADDR, 1);
+	
+	EXTI_ClearITPendingBit(EXTI_Line1); // clear pending bit
+}
+
+/**
+  * @brief  This function handles SysTick Handler.
+  * @param  None
+  * @retval None
+  */
+void EXTI0_IRQHandler(void)
+{
+	uint8_t ctrl;
+	
+	ctrl = LIS302DL_FF_WU_SRC1_REG_ADDR;
+	//LIS302DL_Read(&ctrl, LIS302DL_FF_WU_CFG1_REG_ADDR, 1);
+	
+	EXTI_ClearITPendingBit(EXTI_Line0); // clear pending bit
 }
 
 /******************************************************************************/
